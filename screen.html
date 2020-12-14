@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="assets/style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
     <!-- For menu bar -->
+    
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand logo" href="#"><img src="assets/images/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -33,21 +34,46 @@
               <a class="nav-link" href="#">Kalender</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Schuler</a>
+              <a class="nav-link" href="#">Schuler</a>
             </li>
-          </ul>
-        </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kollegen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buchungen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Foreschritt</a>
+            </li>
+            </ul>
+          </div>
+          <div class="vl my-3"> </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav ml-center ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Weiterbiuldung</a>
+              </li>
+          </div>
+           <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav mx-auto ">
+              <li class="nav-item ">
+                <a class="nav-link profile" href="#"> <img src="assets/images/profile.jpg"></a>
+              </li>
+            </ul>
+          </div>
+        
       </nav>
     <!-- Menu bar ends -->
 
     <!-- Grid System Designing -->
-    <div class="container">
-        <div class="row border border-primary">
-          <h1>Ubersicht deiner Fahrschulen</h1>
+    <div class="container mt-3">
+        <div class="row content">
+          <h3 class="h1 w-75"> Ubersicht deiner Fahrschulen &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></h3> 
+          <div class="d-flex h-25  mt-2 mr-5 btn btn-success">Profilvorschu</div>
           <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
             <div class="col-sm-4">
              <img src="assets/images/images.jpg" class="img-thumbnail">
-            </div>
+          </div>
             <div class="col-sm-8">
                 <h2>Fahrschulen Achselpeter</h2>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;<label>Seddiner Strabe 7 | 10135 Berlin</label><br>
@@ -57,12 +83,23 @@
                 <i class="fa fa-chrome" aria-hidden="true"></i>&nbsp;<label>achselpetervollinfahrt.de</label>
             </div>
         </div>
-        <div class="row">
+        <div class="row content Verbessere">
+          <div class="flex mb-2">
+          <h2>Verbessere dein Profil</h2>
+          </div>
+          <div class="row">
             <div class="col-sm-4">
               <div class="card">
                 <div class="card-body">
-                  <h3 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h3>
-                  <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                  <div class=row>
+                    <div class="col-sm-10">
+                  <h5 class="card-title content">Lade hochwertige bilder deiner Fahrschule hoch </h5>
+                </div>
+                   <div class="col-sm-2 cross">
+                    <i class="fa fa-times " aria-hidden="true"></i>
+                   </div>
+                </div>
+                  <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <a href="#" class="btn btn-success">Go somewhere</a>
                 </div>
               </div>
@@ -70,8 +107,15 @@
             <div class="col-sm-4">
                 <div class="card">
                     <div class="card-body">
-                      <h3 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h3>
-                      <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                      <div class="row">
+                          <div class="col-sm-10">
+                             <h5 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h5>
+                            </div>
+                          <div class="col-sm-2 cross">
+                            <i class="fa fa-times " aria-hidden="true"></i>
+                          </div>
+                    </div>
+                      <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       <a href="#" class="btn btn-success">Go somewhere</a>              
                     </div>
               </div>
@@ -79,35 +123,110 @@
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                    <h3 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h3>
-                    <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <div class="row">
+                      <div class="col-sm-10">
+                    <h5 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h5>
+                  </div>
+                      <div class="col-sm-2 cross">
+                        <i class="fa fa-times " aria-hidden="true"></i>
+                      </div>
+                  </div>
+                    <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <a href="#" class="btn btn-outline-success">Go somewhere</a>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-         <div class="row">
+         <div class="row content">
             <div class="col-sm-6">
-                <h5 class=>Kalender</h5>
+               <div class="row">
+                 <div class="col-sm-9">
+                <h5 class="card-title" >Kalender</h5>
+              </div>
+                 <div class="col-sm-3">
+                 <a href="#">Alle Anfragel</a>&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
                 <div class="card">
-                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt/li>
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                      <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                       <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
                     </ul>
                   </div>  
               </div>
               <div class="col-sm-6">
-                <h5>Schulerfortschritt</h5>
+                <div class="row">
+                  <div class="col-sm  ml-auto">
+                 <h5 class="card-title" >Schulerfortschritt</h5>
+               </div>
+                  <div class="col-sm">
+                  <a href="#">Alle Anfragel | Alle Produkte</a>&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                 </div>
+                 
+                </div>
                 <div class="card">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt/li>
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
-                      <li class="list-group-item">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                      <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                      <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                      <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+                      
                     </ul>
                   </div>  
               </div>
          </div>
+         <div class="row mt-3">
+            <div class="col-sm-6">
+            
+            <div class="row">
+              <div class="col-sm-8">
+             <h5 class="card-title" >Schulerfortschritt</h5>
+           </div>
+              <div class="col-sm">
+              <a href="#"> Kalender | Heute</a>&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+             </div>
+             
+            </div>
+             <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/calender.png">Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+            </ul>
+          </div>  
+        </div>
+        <div class="col-sm-6">
+          
+            <h5>Schulerfortschritt</h5>
+            <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item profile"><a href=""></a><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+              <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+            
+            </ul>
+          </div>  
+        </div>
+    </div>
+    <div class="row mt-3">
+    <div class="col-sm-6">
+        <h5>Schulerfortschritt</h5>
+        <div class="card">
+           <ul class="list-group list-group-flush">
+          <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+          <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+          <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+          <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+          <li class="list-group-item profile"><img src="assets/images/download.png">&nbsp;Achsel mochte mit peter um 12:00 Uhr eine Uberlandfahrt</li>
+           </ul>
+      </div>  
+     </div>
+    </div>
     </div>
       
 </body>
